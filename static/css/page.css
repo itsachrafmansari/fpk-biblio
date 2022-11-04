@@ -12,9 +12,6 @@
 .module {
     border-top: 2px solid #bebebe;
 }
-.season {
-    margin: 12px 0 5px;
-}
 .docs_list {
     list-style: decimal;
 }
