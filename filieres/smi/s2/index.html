@@ -1,81 +1,293 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NP8XY8F3TS"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-NP8XY8F3TS');
-        </script>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>SMI S2 - FPK Bibliothèque</title>
-        <link rel="stylesheet" href="../../../static/css/universal.css"/>
-        <link rel="stylesheet" href="../../../static/css/page.css"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    </head>
-    <body>
-        <header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPK Biblio</title>
+    <link rel="stylesheet" href="../../../static/css/main.css"/>
+</head>
+<body class=" bg-slate-200">
+    <header>
+        <div class="py-20 text-center">
             <a href="../../../">
-                <h1>Bibliothèque</h1>
-                <h2>Faculté Polydisciplinaire Khouribga</h2>
+                <div class="mb-2 text-5xl font-semibold uppercase">Bibliothèque</div>
+                <div class="text-lg font-normal">Faculté Polydisciplinaire Khouribga</div>
             </a>
-        </header>
-        <main>
-            <div class="page_container">
-                <a href="../"><h2 class="filiere">Filières > SMI > S2</h2></a>
-                <div class="module">
-                    <h3>Analyse 2 :</h3>
-                    <ul class="docs_list">
-                        <li><b>Chapitre 1.pdf</b> | <i><a href="https://drive.google.com/file/d/1Tlw0WX5ZoFL6fGVM7xmu8lITaHI9dTIs/view?usp=sharing">voir</a></i></li>
-                        <li><b>Chapitre 2.pdf</b> | <i><a href="https://drive.google.com/file/d/1ZoHSR7csYSNsLY2zxdgmEsrJ8dpQZkZ0/view?usp=sharing">voir</a></i></li>
-                        <li><b>Chapitre 3.pdf</b> | <i><a href="https://drive.google.com/file/d/1VgOJjlcyMcELgaN9p-w8TKn3vfYuKe72/view?usp=sharing">voir</a></i></li>
-                        <li><b>TD 1.pdf</b> | <i><a href="https://drive.google.com/file/d/1xbtzKx8eOl61aUt3JB1fvUTn-38nj0kf/view?usp=sharing">voir</a></i></li>
-                        <li><b>TD 2.pdf</b> | <i><a href="https://drive.google.com/file/d/1btPIlTIh3jm1tRKNEmYMnwMm5uZUByKJ/view?usp=sharing">voir</a></i></li>
-                        <li><b>TD 3.pdf</b> | <i><a href="https://drive.google.com/file/d/1ytZRmuldy6MJkYflX4uEEQVcyR9QZNAb/view?usp=sharing">voir</a></i></li>
-                        <li><b>Devoir 2020.pdf</b> | <i><a href="https://drive.google.com/file/d/1b-41lT1QfFD7qaBbKkMGkbkufBUxKqeM/view?usp=sharing">voir</a></i></li>
-                        <li><b>Devoir 2022.pdf</b> | <i><a href="https://drive.google.com/file/d/1rElt10S-NJxioec32hZAozi3yRwSGf8s/view?usp=sharing">voir</a></i></li>
-                        <li><b>Devoir - Exercice 1 (Correction).pdf</b> | <i><a href="https://drive.google.com/file/d/1Kv9ePgEXKjR6mhfpIvM1JJI7oERgS3nl/view?usp=sharing">voir</a></i></li>
-                        <li><b>Exam 2017/2018 Rattrapage.jpg</b> | <i><a href="https://drive.google.com/file/d/1lOSsvmwMyiDbZI0ShUp57UI1UqxyAcFN/view?usp=sharing">voir</a></i></li>
-                    </ul>
+        </div>
+    </header>
+    <main class="mb-8 mx-auto px-2  sm:w-4/5">
+        <!-- BreadCrumbs -->
+        <nav class="flex sm:rounded p-3 mb-2 bg-white" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center space-x-1 md:space-x-3">
+            <li class="inline-flex items-center">
+                <a href="../../../" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-500">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                    Filières
+                </a>
+            </li>
+            <li>
+                <div class="flex items-center">
+                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                <a href="../" class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-500 md:ml-2">
+                    SMI
+                </a>
                 </div>
-                <div class="module">
-                    <h3>Analyse 3 :</h3>
-                    <ul class="docs_list">
-                        <li><b>Chapitre 1.pdf</b> | <i><a href="https://drive.google.com/file/d/1qYM7Kp0fD4vzzYwTxX_UR-k0gH4kojq1/view?usp=share_link">voir</a></i></li>
-                        <li><b>Chapitre 2.pdf</b> | <i><a href="https://drive.google.com/file/d/1wbyeztGL4FEuutE2vmYq75rBSrBANgjW/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 1.pdf</b> | <i><a href="https://drive.google.com/file/d/1k7jy3S2gmJxgkglETHEulT_1rkcol0yS/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 2.pdf</b> | <i><a href="https://drive.google.com/file/d/1OHmzQvaOqrlaAk85KjyvsrtIen7M3izi/view?usp=share_link">voir</a></i></li>
-                        <li><b>Exam 2020/2021 Normale.pdf</b> | <i><a href="https://drive.google.com/file/d/1jppod-QE5DvvQeL0WqAKvMdCAG3ctoTr/view?usp=share_link">voir</a></i></li>
-                        <li><b>Exam 2020/2021 Rattrapage.pdf</b> | <i><a href="https://drive.google.com/file/d/1nWcxyTTbBWznSIroGodk64WaD0fLYzkD/view?usp=share_link">voir</a></i></li>
-                    </ul>
+            </li>
+            <li aria-current="page">
+                <div class="flex items-center">
+                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">
+                    S2
+                </span>
                 </div>
-                <div class="module">
-                    <h3>Physique 3 - Électricité :</h3>
-                    <ul class="docs_list">
-                        <li><b>Cours.pdf</b> | <i><a href="https://drive.google.com/file/d/1E-pH8LlnwVsHpLIIsq9Z1Dh_Al2Mkbd9/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD.pdf</b> | <i><a href="https://drive.google.com/file/d/1S1REgDizNbraSSUnjOPrp3N5f7mRMb7J/view?usp=share_link">voir</a></i></li>
-                    </ul>
-                </div>
-                <div class="module">
-                    <h3>Informatique 2 :</h3>
-                    <ul class="docs_list">
-                        <li><b>Cours.pdf</b> | <i><a href="https://drive.google.com/file/d/192DyYjjRB6jC1WwMkD5a6AUIvkyTw3G7/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 1 (Correction).pdf.pdf</b> | <i><a href="https://drive.google.com/file/d/11kO3JI1z4WXfYZ6462cDJ9C99aGgKMgU/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD (Correction).pdf</b> | <i><a href="https://drive.google.com/file/d/1CT4Hz8HMEsa8nGRpu9NoiUEGvyow2g0X/view?usp=share_link">voir</a></i></li>
-                        <li><b>Exam 2020/2021 Normale.pdf</b> | <i><a href="https://drive.google.com/file/d/1Hou89MjEsL8IqEm_j2yg-hCAahD2Fltk/view?usp=share_link">voir</a></i></li>
-                    </ul>
-                </div>
-                <div class="module">
-                    <h3>Langue et Terminologie 2 :</h3>
-                    <ul class="docs_list">
-                        <li><b>Cours.pdf</b> | <i><a href="https://drive.google.com/file/d/1oz6-CsEUNv2ZyqnztoncZS90fI1jA2US/view?usp=share_link">voir</a></i></li>
-                    </ul>
-                </div>
-            </div>
-        </main>
-        <footer>FPK</footer>
-    </body>
+            </li>
+            </ol>
+        </nav>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Analyse 2 :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Chapitre 1.pdf<a download="Analyse 2 - Cours - Chapitre 1.pdf" href="./Analyse 2/Analyse 2 - Cours - Chapitre 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Chapitre 2.pdf<a download="Analyse 2 - Cours - Chapitre 2.pdf" href="./Analyse 2/Analyse 2 - Cours - Chapitre 2.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Chapitre 3.pdf<a download="Analyse 2 - Cours - Chapitre 3.pdf" href="./Analyse 2/Analyse 2 - Cours - Chapitre 3.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">TDs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>TD (19_20) 1.pdf<a download="Analyse 2 - TDs - TD (19_20) 1.pdf" href="./Analyse 2/Analyse 2 - TDs - TD (19_20) 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 2.pdf<a download="Analyse 2 - TDs - TD (19_20) 2.pdf" href="./Analyse 2/Analyse 2 - TDs - TD (19_20) 2.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 3.pdf<a download="Analyse 2 - TDs - TD (19_20) 3.pdf" href="./Analyse 2/Analyse 2 - TDs - TD (19_20) 3.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Devoirs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Devoir (19_20).pdf<a download="Analyse 2 - Devoirs - Devoir (19_20).pdf" href="./Analyse 2/Analyse 2 - Devoirs - Devoir (19_20).pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Devoir (21_22).jpeg<a download="Analyse 2 - Devoirs - Devoir (21_22)  .jpeg" href="./Analyse 2/Analyse 2 - Devoirs - Devoir (21_22)  .jpeg" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Devoir (21_22) (Exercice 1) [Correction].pdf<a download="Analyse 2 - Devoirs - Devoir (21_22) (Exercice 1) [Correction].pdf" href="./Analyse 2/Analyse 2 - Devoirs - Devoir (21_22) (Exercice 1) [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Analyse 3 :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours (20_21) - Chapitre 1.pdf<a download="Analyse 3 - Cours (20_21) - Chapitre 1.pdf" href="./Analyse 3/Analyse 3 - Cours (20_21) - Chapitre 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Cours (20_21) - Chapitre 2.pdf<a download="Analyse 3 - Cours (20_21) - Chapitre 2.pdf" href="./Analyse 3/Analyse 3 - Cours (20_21) - Chapitre 2.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">TDs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>TD (20_21) 1.pdf<a download="Analyse 3 - TDs - TD (20_21) 1.pdf" href="./Analyse 3/Analyse 3 - TDs - TD (20_21) 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (20_21) 2.pdf<a download="Analyse 3 - TDs - TD (20_21) 2.pdf" href="./Analyse 3/Analyse 3 - TDs - TD (20_21) 2.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Exam</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Exam (20_21) [Normale].pdf<a download="Analyse 3 - Exams - Exam (20_21) [Normale].pdf" href="./Analyse 3/Analyse 3 - Exams - Exam (20_21) [Normale].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Exam (20_21) [Rattrapage].pdf<a download="Analyse 3 - Exams - Exam (20_21) [Rattrapage].pdf" href="./Analyse 3/Analyse 3 - Exams - Exam (20_21) [Rattrapage].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Algèbre 3 :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours.pdf<a download="Algèbre 3 - Cours.pdf" href="./Algèbre 3/Algèbre 3 - Cours.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">TDs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>TD (17_18) 1.pdf<a download="Algèbre 3 - TDs - TD (17_18) 1.pdf" href="./Algèbre 3/Algèbre 3 - TDs - TD (17_18) 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (18_19) 2.pdf<a download="Algèbre 3 - TDs - TD (18_19) 2.pdf" href="./Algèbre 3/Algèbre 3 - TDs - TD (18_19) 2.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Problème (19_20) 1 [Corrigé].pdf<a download="Algèbre 3 - Problèmes - Problème (19_20) 1 [Corrigé].pdf" href="./Algèbre 3/Algèbre 3 - Problèmes - Problème (19_20) 1 [Corrigé].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Problème (19_20) 2 [Corrigé].pdf<a download="Algèbre 3 - Problèmes - Problème (19_20) 2 [Corrigé].pdf" href="./Algèbre 3/Algèbre 3 - Problèmes - Problème (19_20) 2 [Corrigé].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Controles</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Controle (19_20) 1.pdf<a download="Algèbre 3 - Controles - Controle (19_20) 1.pdf" href="./Algèbre 3/Algèbre 3 - Controles - Controle (19_20) 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Controle (20_21) 1.jpeg<a download="Algèbre 3 - Controles - Controle (20_21) 1.jpeg" href="./Algèbre 3/Algèbre 3 - Controles - Controle (20_21) 1.jpeg" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Exam</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Exam (17_18) [Rattrapage].jpg<a download="Algèbre 3 - Exams - Exam (17_18) [Rattrapage].jpg" href="./Algèbre 3/Algèbre 3 - Exams - Exam (17_18) [Rattrapage].jpg" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Exam (20_21) [Rattrapage].jpeg<a download="Algèbre 3 - Exams - Exam (20_21) [Rattrapage].jpeg" href="./Algèbre 3/Algèbre 3 - Exams - Exam (20_21) [Rattrapage].jpeg" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Exam (20_21) [Rattrapage].jpg<a download="Algèbre 3 - Exams - Exam (20_21) [Rattrapage].jpg" href="./Algèbre 3/Algèbre 3 - Exams - Exam (20_21) [Rattrapage].jpg" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Physique 3 :<small class="pl-2 font-semibold text-gray-500">Electrostatique et electrocinétique</small></div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours.pdf<a download="Physique 3 - Cours.pdf" href="./Physique 3 - Electrostatique et electrocinétique/Physique 3 - Cours.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Exam</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Exam (21_22) [Normale].jpg<a download="Physique 3 - Exams - Exam (21_22) [Normale].jpg" href="./Physique 3 - Electrostatique et electrocinétique/Physique 3 - Exams - Exam (21_22) [Normale].jpg" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Physique 4 :<small class="pl-2 font-semibold text-gray-500">Optique géométrique</small></div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours (19_20) - Chapitre 1.pdf<a download="Physique 4 - Cours (19_20) - Chapitre 1.pdf" href="./Physique 4 - Optique/Physique 4 - Cours (19_20) - Chapitre 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Cours (19_20) - Chapitre 2.pdf<a download="Physique 4 - Cours (19_20) - Chapitre 2.pdf" href="./Physique 4 - Optique/Physique 4 - Cours (19_20) - Chapitre 2.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Cours (19_20) - Chapitre 3.pdf<a download="Physique 4 - Cours (19_20) - Chapitre 3.pdf" href="./Physique 4 - Optique/Physique 4 - Cours (19_20) - Chapitre 3.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Cours (19_20) - Chapitre 4.pdf<a download="Physique 4 - Cours (19_20) - Chapitre 4.pdf" href="./Physique 4 - Optique/Physique 4 - Cours (19_20) - Chapitre 4.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Cours (19_20) - Chapitre 5.pdf<a download="Physique 4 - Cours (19_20) - Chapitre 5.pdf" href="./Physique 4 - Optique/Physique 4 - Cours (19_20) - Chapitre 5.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Cours (19_20) - Chapitre 6.pdf<a download="Physique 4 - Cours (19_20) - Chapitre 6.pdf" href="./Physique 4 - Optique/Physique 4 - Cours (19_20) - Chapitre 6.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">TDs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>TD (19_20) 1.pdf<a download="Physique 4 - TDs - TD (19_20) 1  .pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (19_20) 1  .pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 1 [Correction].pdf<a download="Physique 4 - TDs - TD (19_20) 1 [Correction].pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (19_20) 1 [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 2.pdf<a download="Physique 4 - TDs - TD (19_20) 2  .pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (19_20) 2  .pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 2 [Correction].pdf<a download="Physique 4 - TDs - TD (19_20) 2 [Correction].pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (19_20) 2 [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 3.pdf<a download="Physique 4 - TDs - TD (19_20) 3  .pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (19_20) 3  .pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 3 [Correction].pdf<a download="Physique 4 - TDs - TD (19_20) 3 [Correction].pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (19_20) 3 [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 4.pdf<a download="Physique 4 - TDs - TD (19_20) 4  .pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (19_20) 4  .pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (19_20) 4 [Correction].pdf<a download="Physique 4 - TDs - TD (19_20) 4 [Correction].pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (19_20) 4 [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD (21_22) 1.pdf<a download="Physique 4 - TDs - TD (21_22) 1.pdf" href="./Physique 4 - Optique/Physique 4 - TDs - TD (21_22) 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Informatique 2 :<small class="pl-2 font-semibold text-gray-500">Algorithmique 1</small></div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours.pdf<a download="Informatique 2 - Cours.pdf" href="./Informatique 2/Informatique 2 - Cours.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">TDs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>TD  .pdf<a download="Informatique 2 - TDs - TD  .pdf" href="./Informatique 2/Informatique 2 - TDs - TD  .pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD [Correction].pdf<a download="Informatique 2 - TDs - TD [Correction].pdf" href="./Informatique 2/Informatique 2 - TDs - TD [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Exam</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Exam.pdf<a download="Informatique 2 - Exams - Exam.pdf" href="./Informatique 2/Informatique 2 - Exams - Exam.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Langue et Terminologie 2 :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours.pdf<a download="Langue et Terminologie 2 - Cours.pdf" href="./Langue et Terminologie 2/Langue et Terminologie 2 - Cours.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+</body>
 </html>

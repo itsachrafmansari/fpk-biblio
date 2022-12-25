@@ -1,68 +1,174 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NP8XY8F3TS"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-NP8XY8F3TS');
-        </script>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>SMI S4 - FPK Bibliothèque</title>
-        <link rel="stylesheet" href="../../../static/css/universal.css"/>
-        <link rel="stylesheet" href="../../../static/css/page.css"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    </head>
-    <body>
-        <header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPK Biblio</title>
+    <link rel="stylesheet" href="../../../static/css/main.css"/>
+</head>
+<body class=" bg-slate-200">
+    <header>
+        <div class="py-20 text-center">
             <a href="../../../">
-                <h1>Bibliothèque</h1>
-                <h2>Faculté Polydisciplinaire Khouribga</h2>
+                <div class="mb-2 text-5xl font-semibold uppercase">Bibliothèque</div>
+                <div class="text-lg font-normal">Faculté Polydisciplinaire Khouribga</div>
             </a>
-        </header>
-        <main>
-            <div class="page_container">
-                <a href="../"><h2 class="filiere">Filières > SMI > S4</h2></a>
-                <div class="module">
-                    <h3>Structures des données :</h3>
-                    <ul class="docs_list">
-                        <li><b>Cours .pdf</b> | <i><a href="https://drive.google.com/file/d/160n7vPwdk00vHHlIzHvygyJKecv4IlVi/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 1 .pdf</b> | <i><a href="https://drive.google.com/file/d/1h3zDBtmwWxDsnpnJQbIri4Ksdh_nMp-e/view?usp=share_link">voir</a></i></li>
-                    </ul>
+        </div>
+    </header>
+    <main class="mb-8 mx-auto px-2  sm:w-4/5">
+        <!-- BreadCrumbs -->
+        <nav class="flex sm:rounded p-3 mb-2 bg-white" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center space-x-1 md:space-x-3">
+            <li class="inline-flex items-center">
+                <a href="../../../" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-500">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                    Filières
+                </a>
+            </li>
+            <li>
+                <div class="flex items-center">
+                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                <a href="../" class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-500 md:ml-2">
+                    SMI
+                </a>
                 </div>
-                <div class="module">
-                    <h3>Système d'exploitation 2 :</h3>
-                    <ul class="docs_list">
-                        <li><b>Cours .pdf</b> | <i><a href="https://drive.google.com/file/d/147ITe3e1Ef2ss0iTJvEGsNFQR95rPI00/view?usp=share_link">voir</a></i></li>
-                    </ul>
+            </li>
+            <li aria-current="page">
+                <div class="flex items-center">
+                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">
+                    S4
+                </span>
                 </div>
-                <div class="module">
-                    <h3>Electromagnetism :</h3>
-                    <ul class="docs_list">
-                        <li><b>Cours - Chapitre 1 .pdf</b> | <i><a href="https://drive.google.com/file/d/1wA-6J2DmOqHfx-6B8OoMMDdwTmwLVS-M/view?usp=share_link">voir</a></i></li>
-                        <li><b>Cours (Ecrit) .pdf</b> | <i><a href="https://drive.google.com/file/d/12LhYq1XvkvZOE2BOtWxyQNyUK6T2YsNi/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 1 .pdf</b> | <i><a href="https://drive.google.com/file/d/1J3BLzsEmXGVWAB3zF78L91wAM9BpLx2w/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 1 (Correction) .pdf</b> | <i><a href="https://drive.google.com/file/d/1X__btTp4hanQ3LpMKnfNqOE-mlJ8Z01-/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 2 .pdf</b> | <i><a href="https://drive.google.com/file/d/1zQ-BU5s-JBMjR6o1P2XcEuyqyqFy2upb/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 2 (Correction) - Partie 1 .pdf</b> | <i><a href="https://drive.google.com/file/d/1zeE8YpZVa1Sf8XpXhtoMuI4hLZWMuKXx/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 2 (Correction) - Partie 2 .pdf</b> | <i><a href="https://drive.google.com/file/d/1bonTyOdybdWWbfoATOAVMqgcDTZFmkj1/view?usp=share_link">voir</a></i></li>
-                    </ul>
-                </div>
-                <div class="module">
-                    <h3>Architecture des ordinateurs :</h3>
-                    <ul class="docs_list">
-                        <li><b>Cours - Partie 1 .pdf</b> | <i><a href="https://drive.google.com/file/d/1HS9U4zPg1eRVJiHsuvwvv0RZRGLPcfgP/view?usp=share_link">voir</a></i></li>
-                        <li><b>Cours - Partie 2 .pdf</b> | <i><a href="https://drive.google.com/file/d/1nRqV3tqGebSttzty8DqWjtM1gpmMO42K/view?usp=share_link">voir</a></i></li>
-                        <li><b>Cours - Partie 3 .pdf</b> | <i><a href="https://drive.google.com/file/d/1Gw6mVqiDUk0eVcYiDWRNlIJizZP6h6PX/view?usp=share_link">voir</a></i></li>
-                        <li><b>Cours - Partie 2, 3, 4 .pdf</b> | <i><a href="https://drive.google.com/file/d/19nONtQIfRsOg_TquIvc3Gu7EzGHVHEJi/view?usp=share_link">voir</a></i></li>
-                        <li><b>TD 3 .pdf</b> | <i><a href="https://drive.google.com/file/d/1DpvKwzMYyJOTJqmUM9ojosjX2ZPP8pxh/view?usp=share_link">voir</a></i></li>
-                    </ul>
-                </div>
-            </div>
-        </main>
-        <footer>FPK</footer>
-    </body>
+            </li>
+            </ol>
+        </nav>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Architecture des ordinateurs :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Partie 1.pdf<a download="Architecture des ordinateurs - Cours - Partie 1.pdf" href="./Architecture des ordinateurs/Architecture des ordinateurs - Cours - Partie 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Partie 2.pdf<a download="Architecture des ordinateurs - Cours - Partie 2.pdf" href="./Architecture des ordinateurs/Architecture des ordinateurs - Cours - Partie 2.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Partie 3.pdf<a download="Architecture des ordinateurs - Cours - Partie 3.pdf" href="./Architecture des ordinateurs/Architecture des ordinateurs - Cours - Partie 3.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Partie 2, 3, 4.pdf<a download="Architecture des ordinateurs - Cours - Partie 2, 3, 4.pdf" href="./Architecture des ordinateurs/Architecture des ordinateurs - Cours - Partie 2, 3, 4.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Electromagnetism :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Chapitre 1.pdf<a download="Electromagnetism - Cours - Chapitre 1.pdf" href="./Electromagnetism/Electromagnetism - Cours - Chapitre 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>Cours (Ecrit).pdf<a download="Electromagnetism - Cours - Cours (Ecrit).pdf" href="./Electromagnetism/Electromagnetism - Cours - Cours (Ecrit).pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">TDs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>TD 1  .pdf<a download="Electromagnetism - TDs - TD 1  .pdf" href="./Electromagnetism/Electromagnetism - TDs - TD 1  .pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD 1 [Correction].pdf<a download="Electromagnetism - TDs - TD 1 [Correction].pdf" href="./Electromagnetism/Electromagnetism - TDs - TD 1 [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD 2  .pdf<a download="Electromagnetism - TDs - TD 2  .pdf" href="./Electromagnetism/Electromagnetism - TDs - TD 2  .pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD 2 - Partie 1 [Correction].pdf<a download="Electromagnetism - TDs - TD 2 - Partie 1 [Correction].pdf" href="./Electromagnetism/Electromagnetism - TDs - TD 2 - Partie 1 [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD 2 - Partie 2 [Correction].pdf<a download="Electromagnetism - TDs - TD 2 - Partie 2 [Correction].pdf" href="./Electromagnetism/Electromagnetism - TDs - TD 2 - Partie 2 [Correction].pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Programmation 2 :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours.pdf<a download="Programmation 2 - Cours - Cours.pdf" href="./Programmation 2/Programmation 2 - Cours - Cours.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">TDs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>TD 1.pdf<a download="Programmation 2 - TDs - TD 1.pdf" href="./Programmation 2/Programmation 2 - TDs - TD 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD 2.pdf<a download="Programmation 2 - TDs - TD 2.pdf" href="./Programmation 2/Programmation 2 - TDs - TD 2.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                            <li>TD 3.pdf<a download="Programmation 2 - TDs - TD 3.pdf" href="./Programmation 2/Programmation 2 - TDs - TD 3.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Structures des données :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours.pdf<a download="Structures des données - Cours - Cours.pdf" href="./Structures des données/Structures des données - Cours - Cours.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center  font-normal">TDs</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>TD 1.pdf<a download="Structures des données - TDs - TD 1.pdf" href="./Structures des données/Structures des données - TDs - TD 1.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Module -->
+        <div class="module sm:rounded p-4 my-2 bg-white">
+            <!-- Module name -->
+            <div id="lt1" class="text-xl font-bold pb-4">Système d'exploitation 2 :</div>
+            <table class="w-full border border-gray-200">
+                <tbody>
+                    <tr class="odd:bg-gray-50 border-b border-gray-200 last:border-b-0">
+                        <!-- Document Type -->
+                        <td class="px-1 whitespace-nowrap text-center font-normal">Cours</th>
+                        <!-- Corresponding Documents -->
+                        <td class="px-3 py-2 w-full font-normal text-left"><ul class="space-y-2">
+                            <li>Cours.pdf<a download="Système d'exploitation 2 - Cours - Cours.pdf" href="./Système d'exploitation 2/Système d'exploitation 2 - Cours - Cours.pdf" class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a></li>
+                        </ul></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+</body>
 </html>
