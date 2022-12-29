@@ -46,6 +46,6 @@ CSS framework : ```TailwindCSS ```
 <!-- Fichier -->
 <li>FILENAME(short version).FORMAT
     <a href=" [LINK TO THE FILE] " class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Voir</a>
-    <a download=" [LINK TO THE FILE] " href=" [LINK TO THE FILE] " class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a>
+    <a download=" [FULL FILENAME when downloaded] " href=" [LINK TO THE FILE] " class="ml-2 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700">Telecharger</a>
 </li>
 ```
