@@ -1,5 +1,5 @@
 # FPK Bibliothèque
-![Website Snapshot](./github_imgs/website_snapshot.jpg)
+![Website Snapshot](./static/img/website_snapshot.jpg)
 
 A website that contains a collection of courses, tutorials, projects and exams from **Faculté Polydisciplinaire Khouribga**'s lectures, divided and arranged by major, semester and subject.
 
@@ -17,7 +17,7 @@ CSS framework : ```TailwindCSS ```
 <!-- Module -->
 <div class="module sm:rounded p-4 my-2 bg-white">
     <!-- Module name -->
-    <div id="lt1" class="text-xl font-bold pb-4">[SUBJECT NAME] :<small class="pl-2 font-semibold text-gray-500">[EXTRA TITLE]</small></div>
+    <div class="text-xl font-bold pb-4">[SUBJECT NAME] :<small class="pl-2 font-semibold text-gray-500">[SUBJECT SUBTITLE]</small></div>
     <table class="w-full border border-gray-300">
         <tbody>
             <tr class="odd:bg-gray-50 border-b border-gray-300 last:border-b-0">
@@ -26,7 +26,7 @@ CSS framework : ```TailwindCSS ```
                 <!-- Corresponding Documents -->
                 <td class="px-1 py-2 w-full font-normal text-left">
                     <ul>
-                    [LIST OF FILES]
+                        [LIST OF FILES]_
                     </ul>
                 </td>
             </tr>
@@ -34,16 +34,13 @@ CSS framework : ```TailwindCSS ```
     </table>
 </div>
 ```
-
-<br/>
-
 ### Files
 ```html
 <!-- Fichier -->
 <li class="py-1 border-b border-gray-200 last:border-b-0">
     [FILENAME(short version).FORMAT]
-    <span class="whitespace-pre">
-        <a href="[LINK TO THE FILE]" class="ml-2 py-1 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+    <span class="whitespace-nowrap">
+        <button onclick="createIframe(this)" class="ml-2 py-1 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700"><i class="fa-regular fa-eye"></i></button>
         <a download="[FULL FILENAME when downloaded]" href="[LINK TO THE FILE]" class="ml-2 py-1 px-3 text-xs font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-700"><i class="fa-solid fa-download"></i></a>
     </span>
 </li>
