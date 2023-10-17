@@ -21,7 +21,7 @@ const File = ( { file, module_media_src } ) => {
 
     return (
         <div className="border-b border-gray-400 last:border-b-0">
-            <div className="py-1 flex items-center gap-1">
+            <div className="py-1 flex items-center gap-2">
 
                 <span className="w-28 flex gap-2 justify-center items-center ">
 
@@ -32,7 +32,7 @@ const File = ( { file, module_media_src } ) => {
                     }
 
                     {extension === "pdf" && 
-                        <a href={`/${module_media_src}/${file}`} target="_blank" rel="noreferrer" className="w-8 h-auto aspect-square flex justify-center items-center text-s font-medium text-center text-white bg-gray-600 rounded-lg hover:bg-gray-700">
+                        <a href={`/${module_media_src}/${file}`} target="_blank" rel="noreferrer" className="w-8 h-auto aspect-square hidden md:flex justify-center items-center text-s font-medium text-center text-white bg-gray-600 rounded-lg hover:bg-gray-700">
                             <ExternalIcon fill="white" className="w-5"/>
                         </a>
                     }
