@@ -1,0 +1,42 @@
+-ls fiche*
+----> pour afficher tout les fichiers qui commance par fiche
+
+-ls .??*
+----> 
+
+cd rep1/ && rm *
+----> 
+
+cd project || && rm *
+---->
+
+rm *
+----> supprimer tout les fichiers
+
+ls | tee 
+
+
+
+cat >test.txt
+{
+	peut modifier
+	ctrl+D ----> pour sortir du fichier
+}
+
+ls -|
+
+
+(cd rep ;rm file1)
+-----> supprimer file1 dans larrière plan
+ 
+cd rep ;rm file1
+-----> supprimer file1 dans aprés entré en rep (bachground)
+
+	tar -czvf nouveauNom.tar.gz /chemin/vers/répertoire-ou-fichier
+exemple
+	tar -czvf nouveauNom.tar.gz ./rep
+------> pour compresser 
+
+tar -czvf nouveauNomEnsemble.tar.gz /chemin/vers/répertoire-ou-fichier ~/chemin/image.jpg ~/chemin/fichier.txt
+-----> compressser
+
