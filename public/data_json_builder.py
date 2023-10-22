@@ -25,14 +25,17 @@ for major_name in os.listdir(directory):
 
                         for file_name in os.listdir(module_path):
                             file_path = os.path.join(module_path, file_name)
-                            if os.path.isfile(file_path) and file_name.count(" - ") == 2:
+                            if os.path.isfile(file_path):
+                                if file_name.count(" - ") == 2:
 
-                                category = file_name.split(" - ")[1]
+                                    category = file_name.split(" - ")[1]
 
-                                if category in module["categories"]:
-                                    module["categories"][category].append(file_name)
+                                    if category in module["categories"]:
+                                        module["categories"][category].append(file_name)
+                                    else:
+                                        module["categories"][category] = [file_name]
                                 else:
-                                    module["categories"][category] = [file_name]
+                                    print(file_name)
 
                         if module != {}:
                             module["module_src_dir"] = module_path

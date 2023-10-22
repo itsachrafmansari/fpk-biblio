@@ -192,10 +192,10 @@
         "s1": {
             "Alg\u00e8bre 1": {
                 "categories": {
-                    "Cours (20_21)": [
-                        "Alg\u00e8bre 1 - Cours (20_21) - Chapitre 1.pdf",
-                        "Alg\u00e8bre 1 - Cours (20_21) - Chapitre 2.pdf",
-                        "Alg\u00e8bre 1 - Cours (20_21) - Chapitre 3 (R\u00e9unions et Intersections).pdf"
+                    "Cours": [
+                        "Alg\u00e8bre 1 - Cours - Chapitre (20_21) 1.pdf",
+                        "Alg\u00e8bre 1 - Cours - Chapitre (20_21) 2.pdf",
+                        "Alg\u00e8bre 1 - Cours - Chapitre (20_21) 3.pdf"
                     ],
                     "Exams": [
                         "Alg\u00e8bre 1 - Exams - Exam (19_20) [Normale + Avec Correction].pdf",
@@ -206,23 +206,36 @@
                         "Alg\u00e8bre 1 - Exams - Exam (21_22) [Normale].pdf",
                         "Alg\u00e8bre 1 - Exams - Exam (21_22) [Rattrapage].pdf",
                         "Alg\u00e8bre 1 - Exams - Exam (22_23) [Normale].pdf"
+                    ],
+                    "TDs": [
+                        "Alg\u00e8bre 1 - TDs - TD (20_21) 1 .pdf",
+                        "Alg\u00e8bre 1 - TDs - TD (20_21) 1 [Correction].pdf",
+                        "Alg\u00e8bre 1 - TDs - TD (20_21) 2 .pdf",
+                        "Alg\u00e8bre 1 - TDs - TD (20_21) 2 [Correction].pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s1\\Alg\u00e8bre 1"
             },
             "Alg\u00e8bre 2": {
                 "categories": {
-                    "Cours (20_21)": [
-                        "Alg\u00e8bre 2 - Cours (20_21) - Chapitre 1.pdf",
-                        "Alg\u00e8bre 2 - Cours (20_21) - Chapitre 2.pdf",
-                        "Alg\u00e8bre 2 - Cours (20_21) - Chapitre 3.pdf",
-                        "Alg\u00e8bre 2 - Cours (20_21) - Chapitre 4.pdf"
+                    "Cours": [
+                        "Alg\u00e8bre 2 - Cours - Chapitre (20_21) 1.pdf",
+                        "Alg\u00e8bre 2 - Cours - Chapitre (20_21) 2.pdf",
+                        "Alg\u00e8bre 2 - Cours - Chapitre (20_21) 3.pdf",
+                        "Alg\u00e8bre 2 - Cours - Chapitre (20_21) 4.pdf"
                     ],
                     "Exams": [
                         "Alg\u00e8bre 2 - Exams - Exam (20_21) [Normale].pdf",
                         "Alg\u00e8bre 2 - Exams - Exam (20_21) [Rattrapage].pdf",
                         "Alg\u00e8bre 2 - Exams - Exam (21_22) [Normale].jpg",
                         "Alg\u00e8bre 2 - Exams - Exam (21_22) [Rattrapage].jpg"
+                    ],
+                    "TDs": [
+                        "Alg\u00e8bre 2 - TDs - TD (20_21) 1 [Correction].pdf",
+                        "Alg\u00e8bre 2 - TDs - TD (20_21) 2 [Correction].pdf",
+                        "Alg\u00e8bre 2 - TDs - TD (22_23) 1.pdf",
+                        "Alg\u00e8bre 2 - TDs - TD (22_23) 2.pdf",
+                        "Alg\u00e8bre 2 - TDs - TD (22_23) 3.pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s1\\Alg\u00e8bre 2"
@@ -519,6 +532,13 @@
                     "Autres": [
                         "Electronique Num\u00e9rique - Autres - Portes Logiques.pdf"
                     ],
+                    "Cours": [
+                        "Electronique Num\u00e9rique - Cours - Chapitre (20_21) 1.pdf",
+                        "Electronique Num\u00e9rique - Cours - Chapitre (20_21) 2.pdf",
+                        "Electronique Num\u00e9rique - Cours - Chapitre (20_21) 3.pdf",
+                        "Electronique Num\u00e9rique - Cours - Chapitre (20_21) 4.pdf",
+                        "Electronique Num\u00e9rique - Cours - Chapitre (20_21) 5.pdf"
+                    ],
                     "Exams": [
                         "Electronique Num\u00e9rique - Exams - Exam (18_19) [Normale].pdf",
                         "Electronique Num\u00e9rique - Exams - Exam (19_20) [Rattrapage].pdf",
@@ -526,6 +546,21 @@
                         "Electronique Num\u00e9rique - Exams - Exam (21_22) [Normale].pdf",
                         "Electronique Num\u00e9rique - Exams - Exam (21_22) [Rattrapage].pdf",
                         "Electronique Num\u00e9rique - Exams - Exam (22_23) [Normale].pdf"
+                    ],
+                    "TDs": [
+                        "Electronique Num\u00e9rique - TDs - TD (20_21) 1 .pdf",
+                        "Electronique Num\u00e9rique - TDs - TD (20_21) 1 [Correction].pdf",
+                        "Electronique Num\u00e9rique - TDs - TD (20_21) 2 .pdf",
+                        "Electronique Num\u00e9rique - TDs - TD (20_21) 2 [Correction].pdf",
+                        "Electronique Num\u00e9rique - TDs - TD (20_21) 3 .pdf",
+                        "Electronique Num\u00e9rique - TDs - TD (20_21) 3 [Correction].pdf",
+                        "Electronique Num\u00e9rique - TDs - TD (20_21) 4 .pdf",
+                        "Electronique Num\u00e9rique - TDs - TD (20_21) 4 [Correction].pdf"
+                    ],
+                    "TPs": [
+                        "Electronique Num\u00e9rique - TPs - TP (20_21) 1.pdf",
+                        "Electronique Num\u00e9rique - TPs - TP (20_21) 2.pdf",
+                        "Electronique Num\u00e9rique - TPs - TP (20_21) 3.pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s3\\electronique num\u00e9rique"
@@ -537,7 +572,13 @@
                         "Probabilite & statistiques - Autres - Table de Gauss.pdf"
                     ],
                     "Controles": [
+                        "Probabilite & statistiques - Controles - Controle (17_18) 1.pdf",
+                        "Probabilite & statistiques - Controles - Controle (17_18) 2.pdf",
                         "Probabilite & statistiques - Controles - Controle (22_23).pdf"
+                    ],
+                    "Cours": [
+                        "Probabilite & statistiques - Cours - Cours (22_23) Chapitre 1.pdf",
+                        "Probabilite & statistiques - Cours - Cours (22_23) Chapitre 2.pdf"
                     ],
                     "Devoirs": [
                         "Probabilite & statistiques - Devoirs - Devoir (20_21) [Correction].pdf"
@@ -549,6 +590,27 @@
                         "Probabilite & statistiques - Exams - Exam (19_20) [Normale].pdf",
                         "Probabilite & statistiques - Exams - Exam (19_20) [Rattrapage].pdf",
                         "Probabilite & statistiques - Exams - Exam (22_23) [Normale].pdf"
+                    ],
+                    "TDs": [
+                        "Probabilite & statistiques - TDs - TD (20_21) 1  .pdf",
+                        "Probabilite & statistiques - TDs - TD (20_21) 1 [Correction].pdf",
+                        "Probabilite & statistiques - TDs - TD (20_21) 2  .pdf",
+                        "Probabilite & statistiques - TDs - TD (20_21) 2 [Correction].pdf",
+                        "Probabilite & statistiques - TDs - TD (20_21) 3  .pdf",
+                        "Probabilite & statistiques - TDs - TD (20_21) 3 [Correction].pdf",
+                        "Probabilite & statistiques - TDs - TD (20_21) 4  .pdf",
+                        "Probabilite & statistiques - TDs - TD (20_21) 4 [Correction].pdf",
+                        "Probabilite & statistiques - TDs - TD (20_21) 5  .pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 1  .pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 1 [Correction].pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 2  .pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 2 [Correction].pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 3  .pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 3 [Correction].pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 4  .pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 4 [Correction].pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 5  .pdf",
+                        "Probabilite & statistiques - TDs - TD (22_23) 5 [Correction].pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s3\\probabilite-statistiques"
@@ -766,7 +828,11 @@
             "Bases de donn\u00e9es": {
                 "categories": {
                     "Cours": [
-                        "Bases de donn\u00e9es - Cours - Cours (21_22).pdf"
+                        "Bases de donn\u00e9es - Cours - Cours (21_22).pdf",
+                        "Bases de donn\u00e9es - Cours - Partie (22_23) 1.pdf",
+                        "Bases de donn\u00e9es - Cours - Partie (22_23) 2.pdf",
+                        "Bases de donn\u00e9es - Cours - Partie (22_23) 3.pdf",
+                        "Bases de donn\u00e9es - Cours - Partie (22_23) 4.pdf"
                     ],
                     "Exams": [
                         "Bases de donn\u00e9es - Exams - Exam (21_22) [Normale].pdf",
@@ -774,7 +840,7 @@
                         "Bases de donn\u00e9es - Exams - Exam (22_23) [Rattrapage].pdf"
                     ],
                     "TDs": [
-                        "Bases de donn\u00e9es - TDs - TD 1 (22_23).pdf"
+                        "Bases de donn\u00e9es - TDs - TD (22_23) 1 .pdf"
                     ],
                     "TPs": [
                         "Bases de donn\u00e9es - TPs - TP (22_23).pdf"
@@ -823,6 +889,12 @@
                         "POO - Exams - Exam (21_22) [Normale].pdf",
                         "POO - Exams - Exam (22_23) [Normale].pdf",
                         "POO - Exams - Exam (22_23) [Rattrapage].pdf"
+                    ],
+                    "TDs": [
+                        "POO - TDs - TD (20_21) 1.pdf",
+                        "POO - TDs - TD (20_21) 2.pdf",
+                        "POO - TDs - TD (20_21) 3.pdf",
+                        "POO - TDs - TD (20_21) 4.pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s5\\Programmation Orient\u00e9e Objet (POO)"
@@ -830,7 +902,8 @@
             "Recherche operationnelle": {
                 "categories": {
                     "Cours": [
-                        "Recherche operationnelle  - Cours - Partie 1.pdf"
+                        "Recherche operationnelle  - Cours - Partie (23_24) 1.pdf",
+                        "Recherche operationnelle  - Cours - Partie (23_24) 2.pdf"
                     ],
                     "Exams": [
                         "Recherche operationnelle - Exams - Exam (22_23) [Normale].pdf",
@@ -849,6 +922,10 @@
                     "Exams": [
                         "R\u00e9seau - Exams - Exam (22_23) [Normale].pdf",
                         "R\u00e9seau - Exams - Exam (22_23) [Rattrapage].pdf"
+                    ],
+                    "TDs": [
+                        "R\u00e9seau - TDs - TD (22_23) 2 [Avec Correction].pdf",
+                        "R\u00e9seau - TDs - TD (22_23) 3 [Avec Correction].pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s5\\R\u00e9seau"
