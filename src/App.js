@@ -5,14 +5,15 @@ import MajorPage from "./pages/MajorPage";
 import SemesterPage from "./pages/SemesterPage";
 import PageNotFound from "./pages/PageNotFound";
 import PdfViewPage from "./pages/PdfViewPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App min-h-screen flex flex-col">
 
       <Header />
 
-      <main className="mb-8 mx-auto px-2 w-full sm:w-4/5">
+      <main className="mb-8 mx-auto px-2 w-full sm:w-4/5 grow">
 
         <Routes>
 
@@ -30,7 +31,9 @@ function App() {
 
         </Routes>
 
-      </main> 
+      </main>
+
+      <Footer/>
 
     </div>
 
