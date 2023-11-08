@@ -66,7 +66,18 @@ for MAJOR_PATH in subsOf("dirs", MEDIA_DIR):
 
     addIfNotEmpty(data, major, MAJOR_PATH)
 
+# Add the first and second semesters of the SMIA major to the SMI and SMA majors
+if "smia" in data:
+    
+    if "smi" not in data:
+        data["smi"] = {}
+        
+    if "sma" not in data:
+        data["sma"] = {}
 
+    # Extend the SMI and SMA majors while keeping the semesters sorted
+    data["smi"] = data["smia"] | data["smi"] 
+    data["sma"] = data["smia"] | data["sma"]
 
 # Writing the crawling result to the data.json file
 with open(DATA_FILE_PATH, "w+") as jsonFile:

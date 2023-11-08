@@ -15,16 +15,16 @@ const MajorPage = () => {
 
             <Title title={major}/>
 
-            <Navbar major={major}/>
-
             {major in MAJORS ? (
-
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
-                    {Object.keys(MAJORS[major]).map((semester) => (
-                        <Semester key={semester} major={major} label={semester} />
-                    ))}
-                </div>
-
+                <>
+                    <Navbar major={major}/>
+                    
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+                        {Object.keys(MAJORS[major]).map((semester) => (
+                            <Semester key={semester} major={major} label={semester} />
+                        ))}
+                    </div>
+                </>
             ) : ( <PageNotFound /> )}
 
         </>
