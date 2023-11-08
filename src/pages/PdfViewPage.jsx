@@ -5,12 +5,9 @@ import PDFViewer from '../components/PdfViewer';
 import { useParams } from 'react-router-dom';
 
 
-
 const PdfViewPage = () => {
 
     const {major, semester, module, filename} = useParams();
-
-    console.log(major, semester, module, filename);
 
     return (
         <div>

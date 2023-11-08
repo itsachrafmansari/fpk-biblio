@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import Title from "../components/Title";
 import Navbar from "../components/Navbar";
 import Module from "../components/Module";
-import PageNotFound from "./PageNotFound";
 import MAJORS from "../data/data.json";
+import Error404Page from "./Error404Page";
 
 
 const SemesterPage = () => {
@@ -21,11 +21,11 @@ const SemesterPage = () => {
                     <Module key={module_label} label={module_label} categories={body.categories} module_media_src={body.module_src_dir}/>
                 ))}
             </>
-        )
+        );
     } else {
         return (
-            <PageNotFound />
-        )
+            <Error404Page/>
+        );
     }
 }
 

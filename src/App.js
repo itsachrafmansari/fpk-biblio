@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import MajorPage from "./pages/MajorPage";
 import SemesterPage from "./pages/SemesterPage";
-import PageNotFound from "./pages/PageNotFound";
 import PdfViewPage from "./pages/PdfViewPage";
-import Footer from "./components/Footer";
+import Error404Page from "./pages/Error404Page";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
 
           <Route path="/media/:major/:semester/:module/:filename/" element={<PdfViewPage />} />
 
-          <Route path="/*" element={<PageNotFound/>}/>
+          <Route path="/*" element={<Error404Page/>}/>
 
         </Routes>
 
