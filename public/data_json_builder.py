@@ -1,53 +1,74 @@
 import json
 import os
 
-directory = "media"
-project_dir = os.path.split(os.getcwd())[0]
+# We go up a step since the data.json file is located in an adjacent
+# directory to the directory of where this script is located
+PROJECT_DIR = os.path.split(os.getcwd())[0]
+DATA_FILE_PATH = os.path.join(PROJECT_DIR, "src", "data", "data.json")
+MEDIA_DIR = "media"
+
+def subsOf(subsType: str, srcDir: str) -> list[str]:
+    for item in os.listdir(srcDir):
+        itemAbsolutePath = os.path.join(srcDir, item)
+        if (subsType == "dirs" and os.path.isdir(itemAbsolutePath)) or (subsType == "files" and os.path.isfile(itemAbsolutePath)):
+            yield itemAbsolutePath
+
+def nameFromPath(srcPath: str) -> str:
+    return os.path.split(srcPath)[-1]
+
+def addIfNotEmpty(addToObj: dict, childObj: dict, childObjPath: str) -> None:
+    if len(childObj) > 0:
+        objName = nameFromPath(childObjPath)
+        addToObj[objName] = childObj
+
+
+# Crawling through the media directory
 data = {}
+for MAJOR_PATH in subsOf("dirs", MEDIA_DIR):
 
-
-for major_name in os.listdir(directory):
-    major_path = os.path.join(directory, major_name)
     major = {}
-    if os.path.isdir(major_path):
 
-        for semester_name in os.listdir(major_path):
-            semester_path = os.path.join(major_path, semester_name)
-            semester = {}
-            if os.path.isdir(semester_path):
+    for SEMESTER_PATH in subsOf("dirs", MAJOR_PATH):
 
-                for module_name in os.listdir(semester_path):
-                    module_path = os.path.join(semester_path, module_name)
-                    module = {
-                        "categories": {}
-                    }
-                    if os.path.isdir(module_path):
+        semester = {}
 
-                        for file_name in os.listdir(module_path):
-                            file_path = os.path.join(module_path, file_name)
-                            if os.path.isfile(file_path):
-                                if file_name.count(" - ") == 2:
+        for MODULE_PATH in subsOf("dirs", SEMESTER_PATH):
 
-                                    category = file_name.split(" - ")[1]
+            module = {}
 
-                                    if category in module["categories"]:
-                                        module["categories"][category].append(file_name)
-                                    else:
-                                        module["categories"][category] = [file_name]
-                                else:
-                                    print(file_name)
+            for FILE_PATH in subsOf("files", MODULE_PATH):
 
-                        if module != {}:
-                            module["module_src_dir"] = module_path
-                            semester[module_name] = module
+                if FILE_PATH.count(" - ") >= 2:
 
-                if semester != {}:
-                    major[semester_name] = semester
+                    file_name = nameFromPath(FILE_PATH)
 
-        if major != {}:
-            data[major_name] = major
+                    # Fetch the file's category
+                    category = file_name.split(" - ")[1]
+
+                    # Does the module's dictionary contains a "categories" key ?
+                    if "categories" not in module:
+                        module["categories"] = {}
+                        module["module_src_dir"] = MODULE_PATH
+
+                    # Does the module's category contains the file's category ?
+                    if category not in module["categories"] :
+                        module["categories"][category] = []
+
+                    module["categories"][category].append(file_name)
+
+                else:
+                    # Logs any filename that doesn't follow the the more-than-two " - " rule
+                    print(FILE_PATH)
+
+            addIfNotEmpty(semester, module, MODULE_PATH)
+
+        addIfNotEmpty(major, semester, SEMESTER_PATH)
+
+    addIfNotEmpty(data, major, MAJOR_PATH)
 
 
-json_data = json.dumps(data, indent=4)
-with open(os.path.join(project_dir, "src", "data", "data.json"), "w") as json_file:
-    json_file.write(json_data)
+
+# Writing the crawling result to the data.json file
+with open(DATA_FILE_PATH, "w+") as jsonFile:
+    jsonData = json.dumps(data, indent=4)
+    jsonFile.write(jsonData)
