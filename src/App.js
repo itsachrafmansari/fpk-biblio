@@ -25,8 +25,6 @@ function App() {
           <Route path="/:major/:semester/" element={<SemesterPage/>} />
           <Route path="/filieres/:major/:semester/" element={<SemesterPage/>} />
 
-          <Route path="/media/:major/:semester/:module/:filename/" element={<PdfViewPage />} />
-
           <Route path="/*" element={<Error404Page/>}/>
 
         </Routes>
