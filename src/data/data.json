@@ -1173,7 +1173,9 @@
             "Compilation": {
                 "categories": {
                     "Cours": [
-                        "Compilation - Cours - Cours (23_24).pdf"
+                        "Compilation - Cours - Cours (23_24) Chapitre 1.pdf",
+                        "Compilation - Cours - Cours (23_24) Chapitre 2.pdf",
+                        "Compilation - Cours - Cours (23_24) Chapitre 3.pdf"
                     ],
                     "Exams": [
                         "Compilation - Exams - Exam (18_19) [Normale] .pdf",
@@ -1185,7 +1187,9 @@
                         "Compilation - TDs - Etude de cas.pdf",
                         "Compilation - TDs - TD (23_24) 1.pdf",
                         "Compilation - TDs - TD (23_24) 2.pdf",
-                        "Compilation - TDs - TD (23_24) 3.pdf"
+                        "Compilation - TDs - TD (23_24) 3.pdf",
+                        "Compilation - TDs - TD (23_24) 4.pdf",
+                        "Compilation - TDs - TD (23_24) 5.pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s5\\Compilation"
