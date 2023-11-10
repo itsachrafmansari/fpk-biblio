@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
@@ -8,12 +8,15 @@ import MajorPage from "./pages/MajorPage";
 import SemesterPage from "./pages/SemesterPage";
 import Error404Page from "./pages/Error404Page";
 
-ReactGA.initialize(process.env.GA_TRACKING_ID);
+ReactGA.initialize("G-NP8XY8F3TS");
 
 function App() {
 
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+    });
   }, []);
 
   return (
