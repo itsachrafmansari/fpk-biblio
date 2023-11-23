@@ -1183,6 +1183,9 @@
                         "Compilation - Exams - Exam (21_22) [Blanc].pdf",
                         "Compilation - Exams - Exam (22_23) [Rattrapage] .pdf"
                     ],
+                    "Projets": [
+                        "Compilation - Projets - Mini Projets (23_24).pdf"
+                    ],
                     "TDs": [
                         "Compilation - TDs - Etude de cas.pdf",
                         "Compilation - TDs - TD (23_24) 1.pdf",
@@ -1258,7 +1261,8 @@
                     "TDs": [
                         "R\u00e9seau - TDs - TD (22_23) 2 [Avec Correction].pdf",
                         "R\u00e9seau - TDs - TD (22_23) 3 [Avec Correction].pdf",
-                        "R\u00e9seau - TDs - TD (23_24) 1.pdf"
+                        "R\u00e9seau - TDs - TD (23_24) 1.pdf",
+                        "R\u00e9seau - TDs - TD (23_24) 2.pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s5\\R\u00e9seau"
