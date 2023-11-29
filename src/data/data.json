@@ -1173,9 +1173,10 @@
             "Compilation": {
                 "categories": {
                     "Cours": [
-                        "Compilation - Cours - Cours (23_24) Chapitre 1.pdf",
-                        "Compilation - Cours - Cours (23_24) Chapitre 2.pdf",
-                        "Compilation - Cours - Cours (23_24) Chapitre 3.pdf"
+                        "Compilation - Cours - Chapitre (23_24) 1.pdf",
+                        "Compilation - Cours - Chapitre (23_24) 2.pdf",
+                        "Compilation - Cours - Chapitre (23_24) 3.pdf",
+                        "Compilation - Cours - Chapitre (23_24) 4.pdf"
                     ],
                     "Exams": [
                         "Compilation - Exams - Exam (18_19) [Normale] .pdf",
@@ -1239,6 +1240,9 @@
                 "categories": {
                     "Cours": [
                         "Recherche operationnelle  - Cours - Cours (23_24).pdf"
+                    ],
+                    "TDs": [
+                        "Recherche operationnelle  - TDs - TD (23_24).pdf"
                     ],
                     "Exams": [
                         "Recherche operationnelle - Exams - Exam (22_23) [Normale].pdf",
