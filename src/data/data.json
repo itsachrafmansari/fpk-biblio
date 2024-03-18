@@ -1341,10 +1341,14 @@
             },
             "Gestion de projet": {
                 "categories": {
+                    "Ateliers": [
+                        "Gestion de projet - Ateliers - Atelier (23_24) 1.pdf"
+                    ],
                     "Autres": [
                         "Gestion de projet - Autres - Etude de cas.pdf"
                     ],
                     "Cours": [
+                        "Gestion de projet - Cours - Chapitre (23_24) 1.pdf",
                         "Gestion de projet - Cours - Cours (21_22).pdf"
                     ],
                     "Exams": [
@@ -1373,7 +1377,8 @@
                         "Web Dynamique - Cours - Cours (19_20) [HTML].pdf",
                         "Web Dynamique - Cours - Cours (19_20) [PHP].pdf",
                         "Web Dynamique - Cours - Cours (20_21) [PHP].pdf",
-                        "Web Dynamique - Cours - Cours (21_22) [PHP].pdf"
+                        "Web Dynamique - Cours - Cours (21_22) [PHP].pdf",
+                        "Web Dynamique - Cours - Cours (23_24) [PHP].pdf"
                     ],
                     "TDs": [
                         "Web Dynamique - TDs - TD 1, 2, 3.pdf",
