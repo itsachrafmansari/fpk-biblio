@@ -1297,6 +1297,7 @@
                         "Administration Reseaux - Cours - Chapitre (22_23) 4 [partie 2].pdf",
                         "Administration Reseaux - Cours - Chapitre (22_23) 5.pdf",
                         "Administration Reseaux - Cours - Chapitre (22_23) 6.pdf",
+                        "Administration Reseaux - Cours - Chapitre (23_24) 1.pdf",
                         "Administration Reseaux - Cours - Cours (21_22).pdf"
                     ],
                     "Exams": [
@@ -1305,7 +1306,8 @@
                     ],
                     "TDs": [
                         "Administration Reseaux - TDs - TD (22_23) 1.pdf",
-                        "Administration Reseaux - TDs - TD (22_23) 2.pdf"
+                        "Administration Reseaux - TDs - TD (22_23) 2.pdf",
+                        "Administration Reseaux - TDs - TD (23_24) 1.pdf"
                     ],
                     "TPs": [
                         "Administration Reseaux - TPs - TP (21_22) 1.pdf",
@@ -1323,7 +1325,8 @@
                     "Cours": [
                         "Base de donnees - Cours - Cours (20_21) [Algebre Relationnelle].pdf",
                         "Base de donnees - Cours - Cours (20_21) [SQL].pdf",
-                        "Base de donnees - Cours - Cours (21_22) [PL_SQL].pdf"
+                        "Base de donnees - Cours - Cours (21_22) [PL_SQL].pdf",
+                        "Base de donnees - Cours - Cours (23_24) [PL_SQL].pdf"
                     ],
                     "TDs": [
                         "Base de donnees - TDs - TD (20_21) 1 [avec correction].pdf"
@@ -1334,7 +1337,11 @@
                         "Base de donnees - TPs - TP (20_21) 2 [PL_SQL].pdf",
                         "Base de donnees - TPs - TP (20_21) 2 [SQL].pdf",
                         "Base de donnees - TPs - TP (20_21) 3 [PL_SQL].pdf",
-                        "Base de donnees - TPs - TP (20_21) 4 [PL_SQL].pdf"
+                        "Base de donnees - TPs - TP (20_21) 4 [PL_SQL].pdf",
+                        "Base de donnees - TPs - TP (23_24) 1.pdf",
+                        "Base de donnees - TPs - TP (23_24) 2.pdf",
+                        "Base de donnees - TPs - TP (23_24) 3.pdf",
+                        "Base de donnees - TPs - TP (23_24) 4.pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s6\\Base de donnees"
@@ -1342,13 +1349,16 @@
             "Gestion de projet": {
                 "categories": {
                     "Ateliers": [
-                        "Gestion de projet - Ateliers - Atelier (23_24) 1.pdf"
+                        "Gestion de projet - Ateliers - Atelier (23_24) 1.pdf",
+                        "Gestion de projet - Ateliers - Atelier (23_24) 2.pdf"
                     ],
                     "Autres": [
-                        "Gestion de projet - Autres - Etude de cas.pdf"
+                        "Gestion de projet - Autres - Etude de cas.pdf",
+                        "Gestion de projet - Autres - Projet de fin de module (23_24).pdf"
                     ],
                     "Cours": [
                         "Gestion de projet - Cours - Chapitre (23_24) 1.pdf",
+                        "Gestion de projet - Cours - Chapitre (23_24) 2.pdf",
                         "Gestion de projet - Cours - Cours (21_22).pdf"
                     ],
                     "Exams": [
