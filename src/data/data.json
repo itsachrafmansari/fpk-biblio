@@ -1298,6 +1298,8 @@
                         "Administration Reseaux - Cours - Chapitre (22_23) 5.pdf",
                         "Administration Reseaux - Cours - Chapitre (22_23) 6.pdf",
                         "Administration Reseaux - Cours - Chapitre (23_24) 1.pdf",
+                        "Administration Reseaux - Cours - Chapitre (23_24) 2.pdf",
+                        "Administration Reseaux - Cours - Chapitre (23_24) 3.pdf",
                         "Administration Reseaux - Cours - Cours (21_22).pdf"
                     ],
                     "Exams": [
@@ -1307,7 +1309,9 @@
                     "TDs": [
                         "Administration Reseaux - TDs - TD (22_23) 1.pdf",
                         "Administration Reseaux - TDs - TD (22_23) 2.pdf",
-                        "Administration Reseaux - TDs - TD (23_24) 1.pdf"
+                        "Administration Reseaux - TDs - TD (23_24) 1.pdf",
+                        "Administration Reseaux - TDs - TD (23_24) 2.pdf",
+                        "Administration Reseaux - TDs - TD (23_24) 3.pdf"
                     ],
                     "TPs": [
                         "Administration Reseaux - TPs - TP (21_22) 1.pdf",
@@ -1395,6 +1399,9 @@
                         "Web Dynamique - TDs - TD 1, 2, 3.pdf",
                         "Web Dynamique - TDs - TD 3 [Formulaires].pdf",
                         "Web Dynamique - TDs - TD [POO].pdf"
+                    ],
+                    "TPs": [
+                        "Web Dynamique - TPs - TP (23_24) 1.pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s6\\Web Dynamique"
