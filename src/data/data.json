@@ -1287,7 +1287,9 @@
                         "Administration Reseaux - Annexes - Annexe (22_23) A.pdf",
                         "Administration Reseaux - Annexes - Annexe (22_23) B.pdf",
                         "Administration Reseaux - Annexes - Annexe (22_23) C.pdf",
-                        "Administration Reseaux - Annexes - Annexe (22_23) D.pdf"
+                        "Administration Reseaux - Annexes - Annexe (22_23) D.pdf",
+                        "Administration Reseaux - Annexes - Annexe (23_24) A.pdf",
+                        "Administration Reseaux - Annexes - Annexe (23_24) B.pdf"
                     ],
                     "Cours": [
                         "Administration Reseaux - Cours - Chapitre (22_23) 1.pdf",
@@ -1300,6 +1302,10 @@
                         "Administration Reseaux - Cours - Chapitre (23_24) 1.pdf",
                         "Administration Reseaux - Cours - Chapitre (23_24) 2.pdf",
                         "Administration Reseaux - Cours - Chapitre (23_24) 3.pdf",
+                        "Administration Reseaux - Cours - Chapitre (23_24) 4 [partie 1].pdf",
+                        "Administration Reseaux - Cours - Chapitre (23_24) 4 [partie 2].pdf",
+                        "Administration Reseaux - Cours - Chapitre (23_24) 5.pdf",
+                        "Administration Reseaux - Cours - Chapitre (23_24) 6.pdf",
                         "Administration Reseaux - Cours - Cours (21_22).pdf"
                     ],
                     "Exams": [
@@ -1319,7 +1325,10 @@
                         "Administration Reseaux - TPs - TP (21_22) 3.pdf",
                         "Administration Reseaux - TPs - TP (22_23) 1.pdf",
                         "Administration Reseaux - TPs - TP (22_23) 2.pdf",
-                        "Administration Reseaux - TPs - TP (22_23) 3.pdf"
+                        "Administration Reseaux - TPs - TP (22_23) 3.pdf",
+                        "Administration Reseaux - TPs - TP (23_24) 1.pdf",
+                        "Administration Reseaux - TPs - TP (23_24) 2.pdf",
+                        "Administration Reseaux - TPs - TP (23_24) 3.pdf"
                     ]
                 },
                 "module_src_dir": "media\\smi\\s6\\Administration Reseaux"
@@ -1352,11 +1361,17 @@
             },
             "Gestion de projet": {
                 "categories": {
+                    "Annexes": [
+                        "Gestion de projet - Annexes - Annexe (23_24) 1.pdf"
+                    ],
                     "Ateliers": [
                         "Gestion de projet - Ateliers - Atelier (23_24) 1.pdf",
                         "Gestion de projet - Ateliers - Atelier (23_24) 2.pdf",
                         "Gestion de projet - Ateliers - Atelier (23_24) 3.pdf",
-                        "Gestion de projet - Ateliers - Atelier (23_24) 4.pdf"
+                        "Gestion de projet - Ateliers - Atelier (23_24) 4.pdf",
+                        "Gestion de projet - Ateliers - Atelier (23_24) 5.pdf",
+                        "Gestion de projet - Ateliers - Atelier (23_24) 6.pdf",
+                        "Gestion de projet - Ateliers - Atelier (23_24) 7.pdf"
                     ],
                     "Autres": [
                         "Gestion de projet - Autres - Etude de cas.pdf",
@@ -1366,6 +1381,9 @@
                         "Gestion de projet - Cours - Chapitre (23_24) 1.pdf",
                         "Gestion de projet - Cours - Chapitre (23_24) 2.pdf",
                         "Gestion de projet - Cours - Chapitre (23_24) 3.pdf",
+                        "Gestion de projet - Cours - Chapitre (23_24) 4.pdf",
+                        "Gestion de projet - Cours - Chapitre (23_24) 5.pdf",
+                        "Gestion de projet - Cours - Chapitre (23_24) 6.pdf",
                         "Gestion de projet - Cours - Cours (21_22).pdf"
                     ],
                     "Exams": [
@@ -1389,15 +1407,18 @@
             "Web Dynamique": {
                 "categories": {
                     "Cours": [
+                        "Web Dynamique - Cours - Autre (23_24).pdf",
                         "Web Dynamique - Cours - Cours (17_18) [PHP].pdf",
                         "Web Dynamique - Cours - Cours (19_20) [CSS].pdf",
                         "Web Dynamique - Cours - Cours (19_20) [HTML].pdf",
                         "Web Dynamique - Cours - Cours (19_20) [PHP].pdf",
                         "Web Dynamique - Cours - Cours (20_21) [PHP].pdf",
                         "Web Dynamique - Cours - Cours (21_22) [PHP].pdf",
-                        "Web Dynamique - Cours - Cours (23_24) [PHP].pdf"
+                        "Web Dynamique - Cours - Cours (23_24) [PHP].pdf",
+                        "Web Dynamique - Cours - Cours (23_24).pdf"
                     ],
                     "TDs": [
+                        "Web Dynamique - TDs - TD (23_24).pdf",
                         "Web Dynamique - TDs - TD 1, 2, 3.pdf",
                         "Web Dynamique - TDs - TD 3 [Formulaires].pdf",
                         "Web Dynamique - TDs - TD [POO].pdf"
